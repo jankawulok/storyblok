@@ -25,6 +25,7 @@ var getContent = function (_a, _b) {
                             clear: 'auto',
                             type: cacheProvider,
                         },
+                        maxRetries: 0
                     });
                     response = null;
                     _d.label = 1;

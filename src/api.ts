@@ -12,6 +12,7 @@ export const getContent = async (
       clear: 'auto',
       type: cacheProvider,
     },
+    maxRetries: 0
   })
   let response = null
   try {
