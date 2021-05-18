@@ -29,6 +29,7 @@
     "axios": "latest",
     "rollup": "latest",
     "storyblok-js-client": "latest",
+    "storyblok-vue": "^1.0.5",
     "tslib": "latest"
   },
   "devDependencies": {
