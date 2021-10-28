@@ -9,7 +9,7 @@ export const storyblokBridge = (
       resolveRelations: relations,
     })
     instance.on(events, (payload) => {
-      content.content = {
+      content.value = {
         ...payload.story.content,
         _meta: payload.story,
       }
