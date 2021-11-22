@@ -1,5 +1,6 @@
 {
-  "name": "@vue-storefront/storyblok",
+  "name": "@jankawulok/storyblok",
+  "repository": "https://github.com/jankawulok/storyblok",
   "version": "0.3.0",
   "description": "Storyblok CMS integration with Vue Storefront",
   "main": "lib/index.cjs.js",
@@ -54,6 +55,8 @@
     "storyblok-vue": "^1.0.5"
   },
   "publishConfig": {
+    "@jankawulok:registry": "https://npm.pkg.github.com",
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "keywords": [
